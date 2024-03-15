@@ -1,0 +1,28 @@
+.calculator__input-radio {
+  inline-size: 25px;
+  block-size: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  border: 5px solid #fff;
+  transition: .3s;
+}
+
+.calculator__input-radio:checked {
+  background-color: #9AF606;
+}
+
+.calculator__input-radio:active {
+  outline: none;
+}
+
+.calculator__input-radio:focus {
+  outline: none;
+}
+
+.calculator__input-radio:focus-visible {
+  outline: 1px solid #9AF606;
+}

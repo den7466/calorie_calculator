@@ -6,29 +6,36 @@
   <title>Calorie calculator</title>
 </head>
 <body class="page">
-  <header class="header section">
-    <h1 class="title">Calorie calculator</h1>
-    <p class="description">По формуле Миффлина-Сан Жеора</p>
+  <header class="header page__section">
+    <h1 class="header__title">Calorie calculator</h1>
+    <p class="header__description">По формуле Миффлина-Сан Жеора</p>
   </header>
-  <main class="main section">
+  <main class="main page__section">
     <section class="calculator">
-      <p class="calculator_result">0 кал.</p>
+      <p class="calculator__result">0 кал.</p>
       <form name="calculator" class="calculator__form" novalidate>
         <div class="calculator__input-container">
           <input class="calculator__input-radio"type="radio" name="gender" id="female" value="female" checked>
-          <label for="female">Женский = -161</label>
+          <label for="female">Женский</label>
         </div>
         <div class="calculator__input-container">
           <input class="calculator__input-radio" type="radio" name="gender" id="male" value="male">
-          <label for="male">Мужской = 5</label>
+          <label for="male">Мужской</label>
         </div>
-        <input class="calculator__input-number" type="number" name="age" id="" placeholder="Ваш возраст">
-        <input class="calculator__input-number" type="number" name="height" id="" placeholder="Ваш рост">
-        <input class="calculator__input-number" type="number" name="weight" id="" placeholder="Ваш вес">
-        <button class="calculator__button" type="submit">Рассчитать</button>
+        <input class="calculator__input-number" id="age-name" type="number" name="age" id="" placeholder="Ваш возраст" required>
+        <span class="calculator__error age-name-error"></span>
+        <input class="calculator__input-number" id="height-name" type="number" name="height" id="" placeholder="Ваш рост"  required>
+        <span class="calculator__error height-name-error"></span>
+        <input class="calculator__input-number" id="weight-name" type="number" name="weight" id="" placeholder="Ваш вес" required>
+        <span class="calculator__error weight-name-error"></span>
+        <button class="calculator__button calculator__button-submit" type="submit">Рассчитать</button>
       </form>
     </section>
   </main>
-  <footer class="footer section"></footer>
+  <footer class="footer page__section">
+    <p class="footer__copyright">
+      © 2024 Dmitriy Podorozhnykh
+    </p>
+  </footer>
 </body>
 </html>

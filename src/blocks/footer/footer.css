@@ -1,0 +1,9 @@
+@import url('./__copyright/__copyright.css');
+
+.footer {
+  display: block;
+  position: fixed;
+  bottom: 30px;
+  left: calc(50% - 250px);
+  inline-size: 100%;
+}

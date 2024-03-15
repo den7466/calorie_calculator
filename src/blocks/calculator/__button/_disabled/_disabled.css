@@ -1,0 +1,9 @@
+.calculator__button_disabled {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.calculator__button_disabled:hover {
+  color: #fff;
+}

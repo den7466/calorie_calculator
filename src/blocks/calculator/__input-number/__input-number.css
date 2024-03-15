@@ -1,0 +1,22 @@
+.calculator__input-number {
+  block-size: 40px;
+  inline-size: 100%;
+  border: none;
+  background-color: #2a2a2a;
+  color: #fff;
+  border-block-end: 1px solid transparent;
+  transition: .3s;
+}
+
+.calculator__input-number:active {
+  outline: none;
+}
+
+.calculator__input-number:focus {
+  outline: none;
+}
+
+.calculator__input-number:focus-visible {
+  outline: none;
+  border-block-end: 1px solid #9AF606;
+}

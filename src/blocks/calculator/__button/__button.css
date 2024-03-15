@@ -1,0 +1,15 @@
+.calculator__button {
+  padding: 10px 20px;
+  inline-size: 100%;
+  cursor: pointer;
+  background-color: #9AF606;
+  color: #202020;
+  font-weight: 700;
+  border: 1px solid #9AF606;
+  transition: .3s;
+}
+
+.calculator__button:hover {
+  background-color: transparent;
+  color: #9AF606;
+}

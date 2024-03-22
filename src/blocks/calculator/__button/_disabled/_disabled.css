@@ -6,4 +6,5 @@
 
 .calculator__button_disabled:hover {
   color: #fff;
+  background-color: transparent;
 }

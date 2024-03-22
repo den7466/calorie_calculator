@@ -3,4 +3,5 @@
   align-items: center;
   gap: 15px;
   inline-size: 100%;
+  position: relative;
 }

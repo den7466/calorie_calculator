@@ -22,12 +22,18 @@
           <input class="calculator__input-radio" type="radio" name="gender" id="male" value="male">
           <label for="male">Мужской</label>
         </div>
-        <input class="calculator__input-number" id="age-name" type="number" name="age" id="" placeholder="Ваш возраст" required>
-        <span class="calculator__error age-name-error"></span>
-        <input class="calculator__input-number" id="height-name" type="number" name="height" id="" placeholder="Ваш рост"  required>
-        <span class="calculator__error height-name-error"></span>
-        <input class="calculator__input-number" id="weight-name" type="number" name="weight" id="" placeholder="Ваш вес" required>
-        <span class="calculator__error weight-name-error"></span>
+        <div class="calculator__input-container">
+          <input class="calculator__input-number" id="age-name" type="number" name="age" id="" placeholder="Ваш возраст" required>
+          <span class="calculator__error age-name-error"></span>
+        </div>
+        <div class="calculator__input-container">
+          <input class="calculator__input-number" id="height-name" type="number" name="height" id="" placeholder="Ваш рост"  required>
+          <span class="calculator__error height-name-error"></span>
+        </div>
+        <div class="calculator__input-container">
+          <input class="calculator__input-number" id="weight-name" type="number" name="weight" id="" placeholder="Ваш вес" required>
+          <span class="calculator__error weight-name-error"></span>
+        </div>
         <button class="calculator__button calculator__button-submit" type="submit">Рассчитать</button>
       </form>
     </section>
